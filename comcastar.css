@@ -102,6 +102,7 @@ code {
     font-size: 12px;
     line-height: 1.75;
     font-family: Operator Mono A,Operator Mono B,Source Code Pro,Menlo,Consolas,Monaco,monospace;
+    color: white;
 }
 
 .button-clipboard {
