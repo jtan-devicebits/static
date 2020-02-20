@@ -149,4 +149,5 @@ code {
 
 .button-nav:hover {
     color: white;
+    text-decoration: none;
 }
