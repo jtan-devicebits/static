@@ -9,6 +9,17 @@
     margin-bottom: 20px;
 }
 
+#faq-title {
+    background-color:#181a1b;
+    color: white;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 15px;
+    border-radius: 4px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
 #menus {
     margin-bottom: 20px;
 }
