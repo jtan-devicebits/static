@@ -139,10 +139,14 @@ code {
 .button-nav {
     font-family: Tahoma, Verdana, Segoe, sans-serif;
     border: none;
-    color: white;
+    color: #c1c1c1;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
     margin: 4px 2px;
+}
+
+.button-nav:hover {
+    color: white;
 }
