@@ -95,15 +95,13 @@
 }
 
 #codes {
-    background: black;
-    color: white;
+    border-style: dotted;
     border-radius: 10px;
     width: 400px;
 }
 
 code {
     border-radius: 10px;
-    background: #181a1b;
     padding: 25px 10px 10px 22px;
     white-space: pre;
     display: block;
@@ -113,7 +111,6 @@ code {
     font-size: 12px;
     line-height: 1.75;
     font-family: Operator Mono A,Operator Mono B,Source Code Pro,Menlo,Consolas,Monaco,monospace;
-    color: white;
 }
 
 #pitch {
