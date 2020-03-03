@@ -12,3 +12,8 @@ function GenerateNotes() {
     }
     document.getElementById("generated_codes").innerHTML = notes;
 }
+
+var generated_codes_exist = document.getElementById("generated_codes_exist");
+if (typeof(generated_codes_exist) != 'undefined' && elementExists != null) {
+    GenerateNotes()
+}
