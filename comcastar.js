@@ -14,6 +14,6 @@ function GenerateNotes() {
 }
 
 var generated_codes_exist = document.getElementById("generated_codes_exist");
-if (typeof(generated_codes_exist) != 'undefined' && elementExists != null) {
+if (typeof(generated_codes_exist) != 'undefined' && generated_codes_exist != null) {
     GenerateNotes()
 }
