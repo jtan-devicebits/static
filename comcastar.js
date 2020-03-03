@@ -5,7 +5,7 @@ function SetVariable(variable, value) {
 }
 
 function GenerateNotes() {
-    var notes = "NOTES:\n"
+    var notes = "NOTES:\n\n"
     for (const [key, value] of Object.entries(variables)) {
         console.log(key, value);
         notes = notes + key + ' : ' + value + '\n'
