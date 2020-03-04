@@ -22,6 +22,12 @@ function GenerateNotes() {
         notes = notes + key + ' : ' + value + '\n'
     }
     document.getElementById("generated_codes").innerHTML = notes;
+
+    var x = document.getElementById("codes");
+    x.style.display = "block";
+
+    notes.select();
+    document.execCommand("copy")
 }
 
 // var generated_codes_exist = document.getElementById("generated_codes_exist");
