@@ -15,6 +15,7 @@ function SetVariable(variable, value) {
 }
 
 function GenerateNotes() {
+
     var local_variables = JSON.parse(localStorage.getItem('local_variables'))
     var notes = "NOTES:\n\n"
     for (const [key, value] of Object.entries(local_variables)) {
@@ -26,10 +27,13 @@ function GenerateNotes() {
     var x = document.getElementById("codes");
     x.style.display = "block";
 
-    notes.text().select();
-    document.execCommand("copy");
+    var dummyContent = notes;
+    var dummy = $('<textarea>').val(dummyContent).appendTo('body').select();
+    document.execCommand('copy');
+    $(dummy).remove();
 
 }
+
 // var generated_codes_exist = document.getElementById("generated_codes_exist");
 // if (typeof(generated_codes_exist) != 'undefined' && generated_codes_exist != null) {
 //     GenerateNotes()
