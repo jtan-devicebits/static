@@ -40,11 +40,10 @@ function GenerateNotes() {
     document.execCommand('copy');
     document.body.removeChild(el);
 
-    var x = document.getElementById("menus");
-    x.style.display = "none";
+    // var x = document.getElementById("menus");
+    // x.style.display = "none";
 
-    var x = document.getElementById("clipboard");
-    x.style.display = "block";
+    document.getElementById("generate").innerHTML = "Copied!";
 }
 
 // var generated_codes_exist = document.getElementById("generated_codes_exist");
