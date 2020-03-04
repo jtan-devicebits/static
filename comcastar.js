@@ -1,10 +1,12 @@
-variables = {}
-
 function clearVariable(variable, value) {
+    console.log("clearVariable function..")
     localStorage.clear()
+    console.log("Local Storage Clear..")
     local_variables = {}
+    console.log("Emptied Local Variable")
     local_variables[variable] = value
     localStorage.setItem('local_variables', JSON.stringify(local_variables))
+    console.log("Local Variable Set")
 }
 
 function SetVariable(variable, value) {
