@@ -98,7 +98,7 @@
     background:white;
     border-style: dotted;
     border-radius: 10px;
-    width: 400px;
+    width: 600px;
     color: black;
 }
 
@@ -114,6 +114,7 @@ code {
     min-width: 100px;
     font-size: 12px;
     line-height: 1.75;
+    font-family: Arial;
     /* font-family: Operator Mono A,Operator Mono B,Source Code Pro,Menlo,Consolas,Monaco,monospace; */
 }
 
