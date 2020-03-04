@@ -41,4 +41,6 @@ function GenerateNotes() {
     document.body.removeChild(el);
 
     document.getElementById("generate").innerHTML = "Copied to clipboard";
+
+    document.getElementsByClassName("sc-kIPQKe kbAitv btn btn-default")[0].click();
 }
