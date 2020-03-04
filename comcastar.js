@@ -41,7 +41,7 @@ function GenerateNotes() {
     document.body.removeChild(el);
 
     var x = document.getElementById("menus");
-    x.style.display = "block";
+    x.style.display = "none";
 }
 
 // var generated_codes_exist = document.getElementById("generated_codes_exist");
