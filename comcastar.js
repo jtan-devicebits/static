@@ -27,10 +27,18 @@ function GenerateNotes() {
     var x = document.getElementById("codes");
     x.style.display = "block";
 
-    var dummyContent = notes;
-    var dummy = $('<textarea>').val(dummyContent).appendTo('body').select();
+    var copyText = notes;
+    var el = document.createElement('textarea');
+    el.value = copyText;
+    el.setAttribute('readonly', '');
+    el.style = {
+        position: 'absolute',
+        left: '-9999px'
+    };
+    document.body.appendChild(el);
+    el.select();
     document.execCommand('copy');
-    $(dummy).remove();
+    document.body.removeChild(el);
 
 }
 
