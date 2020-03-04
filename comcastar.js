@@ -40,5 +40,5 @@ function GenerateNotes() {
     document.execCommand('copy');
     document.body.removeChild(el);
 
-    document.getElementById("generate").innerHTML = "Copied to clipboard!";
+    document.getElementById("generate").innerHTML = "Copied to clipboard";
 }
