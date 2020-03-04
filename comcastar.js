@@ -26,10 +26,10 @@ function GenerateNotes() {
     var x = document.getElementById("codes");
     x.style.display = "block";
 
-    notes.select();
-    document.execCommand("copy")
-}
+    notes.text().select();
+    document.execCommand("copy");
 
+}
 // var generated_codes_exist = document.getElementById("generated_codes_exist");
 // if (typeof(generated_codes_exist) != 'undefined' && generated_codes_exist != null) {
 //     GenerateNotes()
