@@ -42,6 +42,9 @@ function GenerateNotes() {
 
     var x = document.getElementById("menus");
     x.style.display = "none";
+
+    var x = document.getElementById("clipboard");
+    x.style.display = "block";
 }
 
 // var generated_codes_exist = document.getElementById("generated_codes_exist");
