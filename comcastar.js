@@ -22,7 +22,7 @@ function GenerateNotes(value) {
         console.log(key, value);
         notes = notes + key + ' : ' + value + '\n'
     }
-    notes = notes + '\n' + value;
+    notes = notes + value;
     document.getElementById("generated_codes").innerHTML = notes;
 
     var x = document.getElementById("codes");
