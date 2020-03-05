@@ -14,7 +14,7 @@ function SetVariable(variable, value) {
     localStorage.setItem('local_variables', JSON.stringify(local_variables))
 }
 
-function GenerateNotes() {
+function GenerateNotes(value) {
 
     var local_variables = JSON.parse(localStorage.getItem('local_variables'))
     var notes = "NOTES:\n\n"
@@ -22,6 +22,7 @@ function GenerateNotes() {
         console.log(key, value);
         notes = notes + key + ' : ' + value + '\n'
     }
+    notes = notes + '\n' + value;
     document.getElementById("generated_codes").innerHTML = notes;
 
     var x = document.getElementById("codes");
@@ -41,6 +42,6 @@ function GenerateNotes() {
     document.body.removeChild(el);
 
     document.getElementById("generate").innerHTML = "Copied to clipboard";
-
+    
     document.getElementsByClassName("sc-kIPQKe kbAitv btn btn-default")[0].click();
 }
