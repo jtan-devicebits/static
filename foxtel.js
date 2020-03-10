@@ -1,14 +1,9 @@
-$(function () {
-  "use strict";
-  
-  $(".popup img").click(function () {
-      var $src = $(this).attr("src");
-      $(".show").fadeIn();
-      $(".img-show img").attr("src", $src);
-  });
-  
-  $("span, .overlay").click(function () {
-      $(".show").fadeOut();
-  });
-  
-});
+function Zoom() {
+  var yourImg = document.getElementById('myImg');
+  if(yourImg && yourImg.style) {
+      yourImg.style.height = '100%';
+      yourImg.style.width = '100%';
+      yourImg.style.maxWidth = '100%';
+  }
+}
+
