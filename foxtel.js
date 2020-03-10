@@ -1,3 +1,5 @@
+var zoom = 0;
+
 function Zoom() {
   var yourImg = document.getElementById('myImg');
 
