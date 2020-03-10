@@ -1,6 +1,5 @@
 function Zoom() {
   var yourImg = document.getElementById('myImg');
-  var zoom = 0;
 
   if(yourImg && yourImg.style) {
 
