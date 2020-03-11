@@ -43,5 +43,5 @@ function GenerateNotes(value) {
 
     document.getElementById("generate").innerHTML = "Copied to clipboard";
     
-    document.getElementsByClassName("sc-kIPQKe kbAitv btn btn-default")[0].click();
+    document.getElementsByClassName("sc-gzOgki PkwIt btn btn-default")[0].click();
 }
