@@ -45,3 +45,7 @@ function GenerateNotes(value) {
     
     document.getElementsByClassName("sc-gzOgki PkwIt btn btn-default")[0].click();
 }
+
+function clickStopButton() {
+    document.getElementsByClassName("sc-gzOgki PkwIt btn btn-default")[0].click();
+}
