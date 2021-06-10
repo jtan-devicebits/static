@@ -43,9 +43,9 @@ function GenerateNotes(value) {
 
     document.getElementById("generate").innerHTML = "Copied to clipboard";
     
-    document.getElementsByClassName("sc-gzOgki PkwIt btn btn-default")[0].click();
+    document.getElementsByClassName("sc-dfVpRl czyxtH btn btn-default")[0].click();
 }
 
 function clickStopButton() {
-    document.getElementsByClassName("sc-gzOgki PkwIt btn btn-default")[0].click();
+    document.getElementsByClassName("sc-dfVpRl czyxtH btn btn-default")[0].click();
 }
